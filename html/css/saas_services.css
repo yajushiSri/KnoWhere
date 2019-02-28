@@ -1,0 +1,31 @@
+.about-holder{
+	top: 0px;
+	padding-top: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	
+}
+form{
+	top: 0px;
+	text-align: left;
+}
+.options{
+	margin-left: 11%;
+	margin-right: 11%;
+}
+input[type=radio]{
+	float: right;
+}
+.data{
+	padding-top: 3%;
+	padding-bottom: 4.5%;
+}
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #1C264B;
+  text-align: center;
+  font-size: 10px;
+}

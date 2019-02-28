@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KnoWhere | IaaS</title>
+		<link rel="stylesheet" type="text/css" href="./css/master.css">
+		<link rel="stylesheet" type="text/css" href="./css/services.css">
+		<link rel="stylesheet" type="text/css" href="./css/saas_services.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="left"><a class="knowhere" href="http://192.168.1.100/index.html">KnoWhere</a></li>
+				<li class="right"><a class="signin" href="http://192.168.1.100/cgi-bin/logout.cgi">Log out</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="about-holder">
+				<div id="about">
+					<font color="white"> <p align="justify">Cloud infrastructure services, known as Infrastructure as a Service (IaaS), are made of highly scalable and automated compute resources. <br>
+IaaS is fully self-service for accessing and monitoring things like compute, networking, storage, and other services, and it allows businesses to purchase resources on-demand and as-needed instead of having to buy hardware outright. <br>
+</p>
+<p align="justify"> Accessing Instructions:<br>1. Open Web Browser.<br>2. Type www.knowhere.com:6080<br>3. Enter global 'vncpasswd' i.e. 'redhat'</p></font>
+				</div>
+			</div>
+			<div class="data">
+				<form method='post' action='http://192.168.1.100/cgi-bin/iaas.cgi'>
+						<div class="options">
+							CentOS<input type='radio' value="redhat" name='os_name' /><br>
+							
+							Ubuntu<input type='radio' value="ubuntu" name='os_name' /><br>
+							
+						</div>
+						<input type='text' name='ram' placeholder="RAM"> <br>
+						<input type="text" name='sizehdd' placeholder="Disk Size"> <br>
+						<input type='text' name='vcpu' placeholder="CPU Cores"> <br>
+						<input type='text' name='port' placeholder="Port"><br>			
+						<input type='text' name='name' placeholder="Machine Name"> </-->
+						<input type="submit" value="Create"> <br>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="dev-center">
+				<h2><u>Developed By</u></h2><br>
+				<div>
+					
+					<div class="details">
+						KnoWhere Cloud<br>
+						Email id - tivan.collector@knowhere.com
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<script type="text/javascript">
+				document.getElementById("about").style.right="0px";
+		</script>
+	</body>
+</html>

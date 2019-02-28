@@ -1,0 +1,44 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	background-image: url("website-background.png");
+}
+nav{
+	padding: 0;
+	padding-bottom: 12px;
+	margin: 0;
+	list-style-type: none;
+	background-color: #1C264B;
+	overflow: hidden;
+	position: relative;
+}
+nav ul li,a{
+	display: block-inline;
+    text-decoration: none;
+    color: #f1f1f1;
+    text-align: center;
+}
+nav ul a.knowhere{
+	font-size: 40px;
+	font-weight: bold;
+}
+nav li.left{
+	float: left;
+}
+nav li.right{
+	position: absolute;
+	right: 35px;
+	bottom: 20px;
+}
+nav ul a:hover{
+	color: #fff;
+}
+footer{
+	background-color: #1C264B;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 45px;
+}

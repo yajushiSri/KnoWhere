@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KnoWhere | Object StaaS</title>
+		<link rel="stylesheet" type="text/css" href="./css/master.css">
+		<link rel="stylesheet" type="text/css" href="./css/services.css">
+		<link rel="stylesheet" type="text/css" href="./css/saas_services.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="left"><a class="knowhere" href="http://192.168.1.100/index.html">KnoWhere</a></li>
+				<li class="right"><a class="signin" href="http://192.168.1.100/cgi-bin/logout.cgi">Log out</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="about-holder">
+				<div id="about">
+					<font color="white"><p align="justify"> Accessing Instructions:<br>1. Click on desired service.<br>2. Open Downloads. <br>3. Extract Files. <br> 4. Give Execution permision: #chmod 777 /path/to/file<br>5. Run Script:  #./path/to/file<br></font>
+				</div>
+			</div>
+			<div class="data">
+				<form method='post' action='http://192.168.1.100/cgi-bin/object_storage.cgi'>
+					<input type='text' name='name' placeholder="Drive Name"> <br>
+					<input type="text" name="size" placeholder="Storage Size"> <br>
+					<input  type="text" name="fsystem" placeholder="(ext4,xfs,etc)"> <br>
+											
+					<input type="submit" value="Submit"> <br>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="dev-center">
+				<h2><u>Developed By</u></h2><br>
+				<div>
+					
+					<div class="details">
+						KnoWhere Cloud<br>
+						Email id - tivan.collector@knowhere.com
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<script type="text/javascript">
+				document.getElementById("about").style.right="0px";
+		</script>
+	</body>
+</html>

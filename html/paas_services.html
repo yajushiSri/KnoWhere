@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KnoWhere | PaaS</title>
+		<link rel="stylesheet" type="text/css" href="./css/master.css">
+		<link rel="stylesheet" type="text/css" href="./css/services.css">
+		<link rel="stylesheet" type="text/css" href="./css/saas_services.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="left"><a class="knowhere" href="http://192.168.1.100/index.html">KnoWhere</a></li>
+				<li class="right"><a class="signin" href="http://192.168.1.100/cgi-bin/logout.cgi">Log out</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="about-holder">
+				<div id="about">
+					<font color="white"> <p align="justify">
+						The delivery model of PaaS is similar to SaaS, except instead of delivering the software over the internet, PaaS provides a platform for software creation.<br>
+						This platform is delivered over the web, and gives developers the freedom to concentrate on building the software while still not having to worry about operating systems, software updates, storage, or infrastructure.<br> PaaS allows businesses to design and create applications that are built into the PaaS with special software components. </p>
+<p align="justify"> Accessing Instructions:<br>1. Click on desired service.<br>2. Open Downloads. <br>3. Give Execution permision: #chmod 777 /path/to/file<br>4. Run Script:  #./path/to/file</font>
+				</div>
+ 			</div>
+			<div class="data">
+				<form method='post' action='http://192.168.1.100/cgi-bin/paas.cgi'>
+					<input type='text' name='container' placeholder="Type Python for Platform"><br><br>
+					<input type="text" name='num_containers' placeholder="Instances"><br><br>
+					<input type="submit" value="Create"> <br>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="dev-center">
+				<h2><u>Developed By</u></h2><br>
+				<div>
+					
+					<div class="details">
+						KnoWhere Cloud<br>
+						Email id - tivan.collector@knowhere.com
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<script type="text/javascript">
+				document.getElementById("about").style.right="0px";
+		</script>
+	</body>
+</html>
