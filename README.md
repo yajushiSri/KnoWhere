@@ -10,3 +10,6 @@ To render virtualized computing resources over the internet (IaaS), I used type-
 To realize a platform which allows clients to develop, run, and manage applications, we used primarily used containerization. This eradicates customer's association with complexities of implementing the infrastructure typically associated with developing and launching an application. I put to use Docker's features of application isolation through deployment of containers, also eliminating the need of a hypervisor. Within the containers, I used web based terminal emulator shellinabox that enables control of Linux Server SSH Shell remotely. And hence, providing a platform for development in Python and Ruby. The functionalities can be easily be added according to the requirements.
 
 In order to provide software as a service, I used encrypted tunnel created through SSH protocol connection. The SSH tunnel is then used to transfer unencrypted traffic over the network through an encrypted channel. The script is then executed by the client to access the utility. And hence use various services such as media player, web browser, text editor, calculator, et cetera.
+
+
+![file-structure](https://user-images.githubusercontent.com/19670906/119026990-70f81580-b9c3-11eb-8ffa-d7f66c77018a.png)
